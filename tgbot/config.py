@@ -26,7 +26,6 @@ class Miscellaneous:
 @dataclass
 class Config:
     tg_bot: TgBot
-    db: DbConfig
     misc: Miscellaneous
 
 
