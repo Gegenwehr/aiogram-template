@@ -1,7 +1,7 @@
 from aiogram import types
 from aiogram.dispatcher.middlewares import BaseMiddleware
 
-from tgbot.database import AddCommands, UpdateCommands
+from tgbot.database.commands import AddCommands, UpdateCommands
 
 
 class DbMiddleware(BaseMiddleware):
